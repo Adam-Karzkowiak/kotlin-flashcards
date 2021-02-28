@@ -7,7 +7,7 @@ import javax.persistence.GenerationType
 import javax.persistence.Id
 
 @Entity
-public data class Flashcard(
+public class Flashcard(
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     val id: Int,
